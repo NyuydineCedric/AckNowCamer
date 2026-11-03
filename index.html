@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AckNowCamer - Cameroon News Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="date-display">
+                <span id="current-date"></span>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        
+        <div class="logo-container">
+            <h1 class="logo">AckNow<span>Camer</span></h1>
+            <p class="tagline">Your Trusted Source for Cameroon News</p>
+        </div>
+        
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Politics</a></li>
+                <li><a href="#">Economy</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Culture</a></li>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Health</a></li>
+                <li><a href="#">Regions</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="breaking-news">
+        <div class="breaking-label">BREAKING:</div>
+        <div class="breaking-content">
+            <marquee behavior="scroll" direction="left">
+                President announces new cabinet reshuffle • Yaoundé to host next AFCON • Bamenda water crisis continues • Cameroon economy grows by 4.2%
+            </marquee>
+        </div>
+    </div>
+
+    <main>
+        <section class="featured-news">
+            <h2 class="section-title">Featured News</h2>
+            <div class="featured-grid">
+                <article class="main-feature">
+                    <img src="https://via.placeholder.com/800x500" alt="Main News">
+                    <div class="feature-content">
+                        <span class="category politics">Politics</span>
+                        <h3><a href="#">President Biya Announces Major Government Reshuffle After Cabinet Meeting</a></h3>
+                        <p class="excerpt">The President of Cameroon has reshuffled his government, appointing five new ministers and reassigning several others in what analysts call a strategic move ahead of elections.</p>
+                        <div class="meta">
+                            <span class="author">By John Mbah</span>
+                            <span class="date">2 hours ago</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <div class="secondary-features">
+                    <article class="secondary-feature">
+                        <img src="https://via.placeholder.com/400x250" alt="News">
+                        <div class="feature-content">
+                            <span class="category sports">Sports</span>
+                            <h4><a href="#">Indomitable Lions Qualify for AFCON Quarterfinals</a></h4>
+                            <div class="meta">
+                                <span class="author">By Sarah Tange</span>
+                                <span class="date">5 hours ago</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="secondary-feature">
+                        <img src="https://via.placeholder.com/400x250" alt="News">
+                        <div class="feature-content">
+                            <span class="category economy">Economy</span>
+                            <h4><a href="#">Cameroon's Inflation Rate Drops to 4.8%</a></h4>
+                            <div class="meta">
+                                <span class="author">By Mark Fon</span>
+                                <span class="date">Yesterday</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <div class="content-wrapper">
+            <section class="latest-news">
+                <h2 class="section-title">Latest News</h2>
+                <div class="news-grid">
+                    <article class="news-card">
+                        <img src="https://via.placeholder.com/300x200" alt="News">
+                        <div class="card-content">
+                            <span class="category health">Health</span>
+                            <h4><a href="#">New Malaria Vaccine Rollout Begins in Cameroon</a></h4>
+                            <p class="excerpt">The Ministry of Health has announced the start of a nationwide malaria vaccination campaign targeting children under 5.</p>
+                            <div class="meta">
+                                <span class="author">By Dr. Amina Bello</span>
+                                <span class="date">3 hours ago</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="news-card">
+                        <img src="https://via.placeholder.com/300x200" alt="News">
+                        <div class="card-content">
+                            <span class="category technology">Technology</span>
+                            <h4><a href="#">Cameroon's First Tech Hub Opens in Douala</a></h4>
+                            <p class="excerpt">The new innovation center aims to support local startups and provide training in digital skills for young Cameroonians.</p>
+                            <div class="meta">
+                                <span class="author">By Tech Reporter</span>
+                                <span class="date">6 hours ago</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="news-card">
+                        <img src="https://via.placeholder.com/300x200" alt="News">
+                        <div class="card-content">
+                            <span class="category culture">Culture</span>
+                            <h4><a href="#">Bamoun Kingdom Celebrates Annual Nguon Festival</a></h4>
+                            <p class="excerpt">Thousands gathered in Foumban to witness the colorful cultural displays and traditional ceremonies.</p>
+                            <div class="meta">
+                                <span class="author">By Culture Desk</span>
+                                <span class="date">Yesterday</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="news-card">
+                        <img src="https://via.placeholder.com/300x200" alt="News">
+                        <div class="card-content">
+                            <span class="category regions">Regions</span>
+                            <h4><a href="#">Floods Displace Hundreds in Far North Region</a></h4>
+                            <p class="excerpt">Heavy rains have caused widespread flooding, with emergency services struggling to reach affected areas.</p>
+                            <div class="meta">
+                                <span class="author">By Regional Correspondent</span>
+                                <span class="date">Yesterday</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                
+                <button class="load-more">Load More News</button>
+            </section>
+
+            <aside class="sidebar">
+                <div class="weather-widget">
+                    <h3>Weather</h3>
+                    <div class="weather-info">
+                        <div class="current-weather">
+                            <div class="location">Yaoundé</div>
+                            <div class="temp">24°C</div>
+                            <div class="condition">Partly Cloudy</div>
+                        </div>
+                        <div class="forecast">
+                            <div class="day">
+                                <div>Mon</div>
+                                <div>25°C</div>
+                            </div>
+                            <div class="day">
+                                <div>Tue</div>
+                                <div>26°C</div>
+                            </div>
+                            <div class="day">
+                                <div>Wed</div>
+                                <div>24°C</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="trending-news">
+                    <h3>Trending Now</h3>
+                    <ul>
+                        <li><a href="#">Anglophone Crisis: Latest Developments</a></li>
+                        <li><a href="#">New Tax Measures Announced in 2024 Budget</a></li>
+                        <li><a href="#">Cameroon vs Nigeria: AFCON Rivalry Renewed</a></li>
+                        <li><a href="#">Dangote Cement Factory Expansion in Douala</a></li>
+                        <li><a href="#">Bamenda-Babadjou Road Construction Update</a></li>
+                    </ul>
+                </div>
+                
+                <div class="newsletter">
+                    <h3>Subscribe to Newsletter</h3>
+                    <p>Get daily news updates directly to your inbox</p>
+                    <form>
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </aside>
+        </div>
+
+        <section class="regional-news">
+            <h2 class="section-title">Regional News</h2>
+            <div class="region-tabs">
+                <button class="tab-btn active" data-region="all">All Regions</button>
+                <button class="tab-btn" data-region="centre">Centre</button>
+                <button class="tab-btn" data-region="littoral">Littoral</button>
+                <button class="tab-btn" data-region="west">West</button>
+                <button class="tab-btn" data-region="north">North</button>
+                <button class="tab-btn" data-region="south">South</button>
+                <button class="tab-btn" data-region="northwest">Northwest</button>
+                <button class="tab-btn" data-region="southwest">Southwest</button>
+                <button class="tab-btn" data-region="east">East</button>
+                <button class="tab-btn" data-region="far-north">Far North</button>
+                <button class="tab-btn" data-region="adamawa">Adamawa</button>
+            </div>
+            
+            <div class="region-content">
+                <article class="region-card" data-region="centre">
+                    <h4><a href="#">Yaoundé City Council Launches Clean-Up Campaign</a></h4>
+                    <div class="meta">
+                        <span class="date">4 hours ago</span>
+                    </div>
+                </article>
+                
+                <article class="region-card" data-region="littoral">
+                    <h4><a href="#">Douala Port Expansion Project 60% Complete</a></h4>
+                    <div class="meta">
+                        <span class="date">7 hours ago</span>
+                    </div>
+                </article>
+                
+                <article class="region-card" data-region="northwest">
+                    <h4><a href="#">Bamenda University Reopens After Protests</a></h4>
+                    <div class="meta">
+                        <span class="date">Yesterday</span>
+                    </div>
+                </article>
+                
+                <article class="region-card" data-region="far-north">
+                    <h4><a href="#">UNICEF Donates School Supplies to Refugee Children</a></h4>
+                    <div class="meta">
+                        <span class="date">Yesterday</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About AckNowCamer</h3>
+                <p>AckNowCamer is Cameroon's leading independent news platform, delivering accurate, balanced and timely news coverage across all regions of the country.</p>
+                <div class="contact">
+                    <span><i class="fas fa-phone"></i> +237 6XX XXX XXX</span>
+                    <span><i class="fas fa-envelope"></i> info@acknowcamer.cm</span>
+                    <span><i class="fas fa-map-marker-alt"></i> Rue 1.234, Yaoundé, Cameroon</span>
+                </div>
+            </div>
+            
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section regions">
+                <h3>Regions</h3>
+                <ul>
+                    <li><a href="#">Centre</a></li>
+                    <li><a href="#">Littoral</a></li>
+                    <li><a href="#">West</a></li>
+                    <li><a href="#">Northwest</a></li>
+                    <li><a href="#">Southwest</a></li>
+                    <li><a href="#">Far North</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section newsletter">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our daily newsletter</p>
+                <form>
+                    <input type="email" placeholder="Your email address">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 AckNowCamer. All Rights Reserved.</p>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
